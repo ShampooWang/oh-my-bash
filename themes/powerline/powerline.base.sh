@@ -38,6 +38,7 @@ function __powerline_user_info_prompt {
       fi
       ;;
   esac
+  user_info="JeffWang"
   [[ -n "${user_info}" ]] && echo "${user_info}|${color}"
 }
 
